@@ -1,13 +1,11 @@
 # Project Name
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> Robot course and directions of the world! <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Screenshots](#screenshots)
-* [Setup](#setup)
 * [Usage](#usage)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
@@ -17,69 +15,60 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
+- The aim of the project is to illustrate the course of the robot on a graph and on the plane of the directions of the world. The interference in the performed actions is marginal, limited to manipulating the graph presentation.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- c++
+- Winapi
 
 
 ## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+-draw the grapf 
+-show the current robot's posiotion
+
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot][image](https://user-images.githubusercontent.com/84710359/123318103-24a67500-d52f-11eb-8acf-772f5fe14b63.png)
+
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+The program gets the information about the angular position of  the robot. And with these information draw the position to time graph and compass of current angle of robot.
+Using different buttons you can manipulate the appearance of the graph. Here it is what is every button for:
+"Generuj" - draw again graph and compass
+"reset" - reset the settings of the graph
+"Amplituda up" - increase of the graphs amplitude 
+"Amplituda down" - decrease of the graph amplitude
+"Przyspieszenie 2ms" - increase of the speed of incoming information
+"Spowolnienie 5ms" - decrease of the speed of incoming information
+"ilosc probek +50" - increase the number of rejected samples
+"ilosc probek -50" - decrease the number of rejected samples
+Additionaly you can see current number of rejected samples.
 
 `write-your-code-here`
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: complete 
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
+Program could have more funcionalities and features
 
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+- This project was inspired by politechnika gdanska
+- This project was based on [this tutorial](https://cpp0x.pl/kursy/Kurs-WinAPI-C++/167).
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [Dominik319] s184304@student.pg.edu.pl  and [Shakerhino] s186067@o365.student.pg.edu.pl - feel free to contact us!
 
 
 <!-- Optional -->
