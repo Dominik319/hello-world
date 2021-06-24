@@ -50,8 +50,6 @@ Using different buttons you can manipulate the appearance of the graph. Here it 
 "ilosc probek -50" - decrease the number of rejected samples
 Additionaly you can see current number of rejected samples.
 
-`write-your-code-here`
-
 
 ## Project Status
 Project is: complete 
